@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		<View class="image">
+			<ImageView id="bookImage"></ImageView>
+		</View>
+		<View layout="vertical" class="information">
+			<Label id="titleLabel" class="title"></Label>
+			<Label id="authorLabel" class="author"></Label>
+			<Label id="dateLabel" class="date"></Label>
+		</View>
+	</Window>
+</Alloy>

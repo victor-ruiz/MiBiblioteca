@@ -1,0 +1,13 @@
+<!-- Este codigo se crea una nueva collection de books y se define una tabla -->
+<Alloy>
+	<Collection src="books"/>
+	<Window class="container">
+		<!-- dataCollection="NOMBRE DEL MODELO"-->
+		<TableView dataCollection="books" separatorColor="#bdbdbd">
+			<TableViewRow class="bookList" onClick="detailsHandler">
+				<Label id="title" class="title" text="{title}"></Label>
+				<ImageView id="image" image="{image}" class="image"></ImageView>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

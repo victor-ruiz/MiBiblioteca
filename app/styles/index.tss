@@ -1,0 +1,19 @@
+".container": {
+	backgroundColor:"gray"
+}
+
+".bookList": {
+	width: Ti.UI.FILL,//significa que View debe llenar el espacio disponible
+	height: 50
+}
+
+".title": {
+	left:10,
+	color:"#000",
+	
+}
+
+".image":{
+	right:10,
+	height:40
+}
